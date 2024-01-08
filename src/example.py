@@ -13,8 +13,6 @@ x = np.random.rand(1000,4)
 theta = np.random.rand(4,1)
 y = x @ theta # + np.sum(5*np.sin(x) - 3*np.cos(x) + np.power(x, 2), axis=0)
 
-print(y)
-
 # train and test split
 x_train = x[:800,:]
 y_train = y[:800,:]
